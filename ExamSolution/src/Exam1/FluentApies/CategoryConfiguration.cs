@@ -10,7 +10,7 @@ namespace Exam1.FluentApies
         {
             builder.HasKey(c => c.CategoryId);
 
-            builder.Property(c => c.Name)
+            builder.Property(c => c.Name).HasMaxLength(100)
                    .IsRequired();
         }
     }
