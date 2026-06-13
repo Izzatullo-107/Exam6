@@ -10,7 +10,7 @@ namespace Exam1.FluentApies
         {
             builder.HasKey(f => f.FoodId);
 
-            builder.Property(f => f.Name)
+            builder.Property(f => f.Name).HasMaxLength(100)
                    .IsRequired();
 
             builder.Property(f => f.Price)
