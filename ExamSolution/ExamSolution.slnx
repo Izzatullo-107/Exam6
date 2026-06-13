@@ -1,5 +1,5 @@
 <Solution>
   <Folder Name="/src/">
-    <Project Path="src/Exam/Exam.csproj" />
+    <Project Path="src/Exam1/Exam1.csproj" Id="01db8ed3-f4d2-4ef2-9e13-f2ae8bfa155e" />
   </Folder>
 </Solution>
