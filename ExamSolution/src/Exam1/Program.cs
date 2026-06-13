@@ -1,5 +1,6 @@
 
 using Exam1.Configurations;
+using Exam1.Mappings;
 
 namespace Exam1
 {
@@ -15,6 +16,9 @@ namespace Exam1
             builder.Services.AddControllers();
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
+
+            builder.Services.AddScoped<IFoodMapper, FoodMapper>();
+            builder.Services.AddScoped<ICategoryMapper, CategoryMapper>();
 
             var app = builder.Build();
 
