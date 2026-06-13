@@ -1,5 +1,6 @@
 ﻿using Exam1.Data;
 using Exam1.Entities;
+using Microsoft.EntityFrameworkCore;
 
 namespace Exam1.Repositories
 {
